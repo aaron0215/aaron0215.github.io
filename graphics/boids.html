@@ -13,17 +13,17 @@
 
     <!-- Font Awesome for social media icons -->
     <script src="https://kit.fontawesome.com/791291c78f.js"></script>
-    <h1>Boids with bounce-off function</h1>
+    <h1 class="text-center">Boids with bounce-off function</h1>
   </head>
 
   <body>
-    <p>
+    <div class="row h-100 justify-content-center align-items-center">
     <canvas id="flock" height="400" width="400"></canvas>
     <input type="range" width="100px" min="0" max="5" step=".1" value="2" id="speed" />
     <button id="add">Add 10</button><button id="clear">Clear</button>
     <script src="boids.js" type="module"></script>
-    </p>
-    <div class="text-center">
+    </div>
+    <div class="text-center row h-100 justify-content-center align-items-center">
       <ul class="pagination">
         <li class="page-item">
           <a class="page-link" href="drone.html" tabindex="-1">Previous</a>
