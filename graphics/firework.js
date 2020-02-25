@@ -43,7 +43,7 @@ window.onload = function() {
     function addParticles(px,py,max){
         for(let count = 0; count < max; count++){
             let angle = Math.random()*Math.PI*2; // explosion angle
-            let speed = Math.random()*10+1; // explosion speed
+            let speed = Math.random()*5+1; // explosion speed
             let r = 255*Math.random();
             let g = 255*Math.random();
             let b = 255*Math.random();
@@ -53,8 +53,8 @@ window.onload = function() {
 
     function addFirework(x,y){
         let startx = Math.floor(Math.random() * Math.floor(canvas.width));
-        let vx = (startx-x)/100;
-        let vy = (400-y)/100;
+        let vx = (startx-x)/200;
+        let vy = (400-y)/200;
         let r = 255*Math.random();
         let g = 255*Math.random();
         let b = 255*Math.random();
