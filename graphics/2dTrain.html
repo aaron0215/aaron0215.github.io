@@ -13,23 +13,21 @@
 
     <!-- Font Awesome for social media icons -->
     <script src="https://kit.fontawesome.com/791291c78f.js"></script>
-    <h1 class="text-center">Boids with bounce-off function (Workbook 4)</h1>
-    <h5 class="text-center">Click on button to add/clear canvas. Use the slider to control moving speed.</h5>
-    <h5 class="text-center">点击按钮添加类鸟群或清空界面。使用滑动条控制移动速度。</h5>
+    <h1 class="text-center">2D Train (Workbook 6)</h1>
+    <h5 class="text-center">Click on the checkbox with slider to make it run automatically or drag slider to make it move.</h5>
+    <h5 class="text-center">Click on the checkbox at bottom can show simple track and enable or disable arc length parameteraztion.</h5>
+    <h5 class="text-center">拖动滑条可控制火车移动，也可点击前部选项使它自动移动。可以拽动轨道点来改变轨迹。</h5>
+    <h5 class="text-center">底部两个选项可显示/关闭简单轨道，以及改变火车车厢的相接模式。</h5>
   </head>
 
   <body>
     <div class="row h-100 justify-content-center align-items-center">
-    <canvas id="flock" height="600" width="600" style="border:1px solid #000000;"></canvas>
+    <canvas id="canvas" height="600" width="600"></canvas>
     </div>
-    <p></p>
     <div class="row h-100 justify-content-center align-items-center">
-    <input type="range" width="100px" min="0" max="5" step=".1" value="2" id="speed" />
-    <button id="add">Add 10</button><button id="clear">Clear</button>
-    <script src="boids.js" type="module"></script>
+    <script src="2dTrain.js" type="module"></script>
     </div>
     <p></p>
-    <!-- </div> -->
     <div class="text-center row h-100 justify-content-center align-items-center">
       <ul class="pagination">
         <li class="page-item">
@@ -45,16 +43,16 @@
         <li class="page-item disable">
           <a class="page-link" href="drone.html">4</a>
         </li>
+        <li class="page-item disable">
+          <a class="page-link" href="boids.html">5</a>
+        </li>
         <li class="page-item active">
-          <a class="page-link" href="#">5</a>
+          <a class="page-link" href="#">6</a>
         </li>
         <li class="page-item disable">
-          <a class="page-link" href="2dTrain.html">6</a>
-        </li>
-        <li class="page-item disable">
-          <a class="page-link" href="2dTrain.html">First</a>
+          <a class="page-link" href="doraemon.html">First</a>
         </li>
       </ul>
-  </div>
+    </div>
   </body>
 </html>
