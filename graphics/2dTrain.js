@@ -68,7 +68,7 @@ function draw(canvas, param) {
   }
 
   // some functions
-  let divide = 400; // divide each side of track (between any two points) into 100 pieces. 400 in total
+  let divide = 100*thePoints.length; // divide each side of track (between any two points) into 100 pieces.
   // locate each cabin of train. Formula from Workbook 5-3
   function locate(u, i, j){
     return thePoints[i][j] +
@@ -279,7 +279,7 @@ window.onload = function() {
 
   // helper function - set the slider to have max = # of control points
   function setNumPoints() {
-    runcavas.setupSlider(0, thePoints.length, 0.005);
+    runcavas.setupSlider(0, thePoints.length, 0.02);
   }
 
   setNumPoints();
