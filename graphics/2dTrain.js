@@ -240,7 +240,6 @@ window.onload = function() {
   // we need the slider for the draw function, but we need the draw function
   // to create the slider - so create a variable and we'll change it later
   let slider; // = undefined;
-
   // note: we wrap the draw call so we can pass the right arguments
   function wrapDraw() {
     // do modular arithmetic since the end of the track should be the beginning
@@ -267,6 +266,7 @@ window.onload = function() {
     checklabel.innerText = name;
     document.getElementsByTagName("body")[0].appendChild(checklabel);
   }
+
   // note: if you add these features, uncomment the lines for the checkboxes
   // in your code, you can test if the checkbox is checked by something like:
   // document.getElementById("simple-track").checked
