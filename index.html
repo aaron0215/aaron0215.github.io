@@ -23,220 +23,67 @@
 
         <link rel="icon" type="image/png" sizes="32x32" href="photo/logo32.png">
         <link rel="stylesheet" href="./css/style.css">
+        <!-- jQuery and Bootstrap JS (placed in head with defer attribute) -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" defer></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" defer></script>
+        
+        <!-- Our component loader script (with defer attribute) -->
+        <script src="js/main.js" defer></script>
     </head>
 
     
 <body>
 <!-- Navigational Bar -->
-<nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#about">About me😃</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#jobexperience">Job Experience👨‍💻</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#education">Education🎓</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#interests">Skills💪</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects💻</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#certificates">Certificates🥇</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#experience">Other Experience📜</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contacts">Contacts☎️</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="files/Resume_Zhiyi_Zhang.pdf">Résumé📋</a>
-            </li>
-        </ul>
-    </div>
-    <div class="navbar-collapse collapse order-3 dual-collapse2">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">English</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+<div id="navbar-container">
+    <div class="text-center p-3">Loadind section...</div>
+</div>
         
 <!-- Website header -->
 <!-- About me section -->
-<div id="about-container"></div>
+<div id="about-container">
+    <div class="text-center p-3">Loading section...</div>
+</div>
 
 <!-- Body -->
 <div class="container">
     <!-- Past job -->
-    <div id="experience-container"></div>
-
-    <br>
+    <div id="experience-container">
+        <div class="text-center p-3">Loading section...</div>
+    </div>
     
     <!-- Education -->
-    <div id="education-container"></div>
-
-    <br>
-    
-    <!-- skill -->
-    <div class="row">
-        <!------>
-        <a id="interests" style=" position: relative;top: -60px;display: block;height: 0;overflow: hidden;"></a>
-        <div class="col-sm-12">
-            <h1>Skill Set💪</h1>
-            <p style="margin-bottom: 3px;"><b>Language</b>: </p>
-            <p style="margin-bottom: 3px;">Java, Python, JavaScript, C++, SQL, Objective-C</p>
-            <p style="margin-bottom: 3px;"><b>Technology</b>: </p>
-            <p style="margin-bottom: 3px;">PyTorch, LlamaIndex, chainlit, LangChain, SpringBoot, Kafka, Redis, MyBatis, MySQL, Cron, Socket, AWS, React-Native, Jenkins</p>
-            <p style="margin-bottom: 3px;"><b>Knowledge</b>: </p>
-            <p style="margin-bottom: 3px;">Neural Network, RAG, LLM, Deep Learning, Reinforcement Learning, Genetic Programming</p>
-        </div>
+    <div id="education-container">
+        <div class="text-center p-3">Loading section...</div>
     </div>
 
-    <br>
+    <!-- skill -->
+    <div id="skills-container">
+        <div class="text-center p-3">Loading section...</div>
+    </div>
     
     <!-- projects -->
-    <a id="projects" style=" position: relative;top: -60px;display: block;height: 0;overflow: hidden;"></a>
-    <div class="row">
-        <div class="col-sm-12">
-            <h1>Projects💻For All Projects👉<a href="https://github.com/aaron0215/Projects" target="_blank"><button type="button" class="btn btn-sm btn-outline-info">View All</button></a></h1>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <img src="photo/rpi.PNG" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Home Surveillance System</h5>
-                    <p class="card-text">Continuous surveillance system with motion detection and face recognition. Built on Raspberry Pi, using python.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <a href="https://github.com/aaron0215/Projects/tree/master/Raspberry%20Pi" target="_blank"><button type="button" class="btn btn-sm btn-outline-info">View Code</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div id="projects-container">
+        <div class="text-center p-3">Loading section...</div>
     </div>
 
     <!-- certificates -->
-    <div class="row">
-        <!------>
-        <a id="certificates" style=" position: relative;top: -60px;display: block;height: 0;overflow: hidden;"></a>
-        <div class="col-sm-12">
-            <h1>Certificates🥇</h1>
-            <a href="https://www.educative.io/verify-certificate/WWyYw5WQ4AlfPK86YXN5Q8UOPVg4MWNPnck"><b>Build an LLM-powered Chatbot with RAG using LlamaIndex</b></a>
-        </div>
+    <div id="certificates-container">
+        <div class="text-center p-3">Loading section...</div>
     </div>
 
-    <br>
-
-        <!-- other Experience -->
-        <div class="row">
-            <!------>
-            <a id="experience" style=" position: relative;top: -60px;display: block;height: 0;overflow: hidden;"></a>
-            <div class="col-sm-12">
-                <h1>Other Experience📜</h1>
-                <ul class="list-unstyled">
-                    <li class="media">
-                        <img src="photo/uvmlogo.png" class="mr-3" alt="...">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Research Assistant</h5>
-                            <h6 class="mt-0 mb-1">University of Vermont | Burlington, VT</h6>
-                            <p class="badge badge-pill badge-primary">April 2018 – July 2018</p>
-                            <ul>
-                                <li>Participated in a government-funded AI research project (Autopilot relevant)</li>
-                                <li>Developed annotation tool with graduate students</li>
-                                <li>Collected and corrected data processed by AI</li>
-                                <li>Wrote tutorial for the annotation tool</li>
-                            </ul>
-                            <p></p>
-                        </div>
-                    </li>
-                    <li class="media">
-                        <img src="photo/uvmlogo.png" class="mr-3" alt="...">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Teaching Assistant</h5>
-                            <h6 class="mt-0 mb-1">University of Vermont | Burlington, VT</h6>
-                            <p class="badge badge-pill badge-primary">January 2018 – May 2018</p>
-                            <ul>
-                                <li>TA for both Java and Python classes </li>
-                                <li>Instructed a lab section of Python class </li>
-                                <li>Assisted instructor to design projects and exams </li>
-                            </ul>
-                            <p></p>
-                        </div>
-                    </li>
-                    <li class="media">
-                        <img src="photo/uvmlogo.png" class="mr-3" alt="...">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">IT Support Specialist</h5>
-                            <h6 class="mt-0 mb-1">University of Vermont | Burlington, VT</h6>
-                            <p class="badge badge-pill badge-primary">September 2017 – April 2018</p>
-                            <ul>
-                                <li>Provided support on software and hardware </li>
-                                <li>Managed technical products inside the school </li>
-                                <li>Maintained internal management system </li>
-                            </ul>
-                            <p></p>
-                        </div>
-                    </li>
-                    <li class="media">
-                        <img src="photo/caslogo.png" class="mr-3" alt="...">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">Application Developer (Intern)</h5>
-                            <h6 class="mt-0 mb-1">Chinese Academy of Sciences | Beijing, CN</h6>
-                            <p class="badge badge-pill badge-primary">June 2017 – August 2017</p>
-                            <ul>
-                                <li>Designed and programmed a content-based image search program</li>
-                                <li>Group Project Manager & Primary Developer</li>
-                                <li>Learned MATLAB for the project </li>
-                                <li>Gained basic knowledge of digital image processing (Harris, Hog, ORB etc.)</li>
-                                <li>Been familiar with basic Computer Vision relevant concepts (Hamming Distance etc.)</li>
-                                <li>Studied several similarity search algorithms (Locality Sensitive Hashing etc.)</li>
-                            </ul>
-                            <p></p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        
-</div>
-
-<br>
-        
-<!-- Bottom -->
-<a id="contacts" style=" position: relative;top: -60px;display: block;height: 0;overflow: hidden;"></a>
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <div class="row">
-    <div class="col-sm-12">
-        <h1>Contacts☎️</h1>
-        <p><a href="mailto:zhangzhiyi@meituan.com" target="_blank">zhangzhiyi@meituan.com</a></p>
-        <p><a href="mailto:zhiyi215@gmail.com" target="_blank">zhiyi215@gmail.com</a></p>
-        <p>(+1) 437-870-3996 (CA)</p>
-      <a href="mailto:zhiyi215@gmail.com" class="smlinks"><i class="fas fa-envelope-square fa-2x"></i></a>
-      <a href="https://www.linkedin.com/in/aaron-zhiyi-zhang-60a48a175"  class="smlinks" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-      <a href="https://github.com/aaron0215" class="smlinks" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
-      <a href="https://www.facebook.com/zhiyi.zhang.980" class="smlinks" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+    <!-- other Experience -->
+    <div id="other-experience-container">
+        <div class="text-center p-3">Loading section...</div>
     </div>
-  </div>
+        
+</div>
+        
+<!-- Bottom contact -->
+<div id="contacts-container">
+    <div class="text-center p-3">Loading section...</div>
 </div>
 
-<!-- Bootstrap required scripts -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-
-<script src="js/main.js"></script>
 </body>
     
 </html>
