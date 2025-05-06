@@ -1,0 +1,12 @@
+<script src="js/main.js"></script>
+<script>
+    // Quick check if script loaded
+    console.log('Inline script executed');
+    
+    // Check if main.js was loaded
+    if (typeof loadComponent === 'function') {
+      console.log('main.js loaded successfully');
+    } else {
+      console.error('main.js did not load correctly');
+    }
+  </script>

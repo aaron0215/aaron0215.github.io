@@ -1,0 +1,68 @@
+    <div class="row">
+        <!------>
+        <a id="education" style=" position: relative;top: -60px;display: block;height: 0;overflow: hidden;"></a>
+        <div class="col-sm-12">
+            <h1>Education🎓</h1>
+            <ul class="list-unstyled">
+                <li class="media">
+                    <div class="media-body">
+                        <h2 style="display: flex; align-items: center; justify-content: left;">
+                            <img src="photo/maclogo.webp" alt="Description" style="height: 2em; margin-right: 6px;">
+                            McMaster University
+                        </h2>           
+                        <p style="display: inline-block;" class="badge badge-pill badge-primary">Sep 2024 - Present</p>
+                        <p style="display: inline-block;"><b>Ontario, Canada</b></p>
+                        <p style="margin-bottom: 3px;"><b>MEng. Computing and Software</b></p>
+                        <p style="margin-bottom: 3px;">GPA: 3.7/4.0</p>
+                        <p style="margin-bottom: 3px;">Courses I have done: </p>
+                        <ul>
+                            <li>Design Thinking✔️</li>
+                            <li>Evolutionary Computation✔️</li>
+                            <li>Big Data and Deep Learning✔️</li>
+                            <li>Machine Learning on Graph✔️</li>
+                        </ul>
+                        <br>
+                        <h2 style="display: flex; align-items: center; justify-content: left;">
+                            <img src="photo/uwmadisonlogo.png" alt="Description" style="height: 2em; margin-right: 10px;">
+                            University of Wisconsin-Madison
+                        </h2>           
+                        <p style="display: inline-block;" class="badge badge-pill badge-primary">Sep 2018 - May 2020</p>
+                        <p style="display: inline-block;"><b>Wisconsin, United States</b></p>
+                        <p style="margin-bottom: 3px;"><b>B.S. Computer Science</b></p>
+                        <p style="margin-bottom: 3px;">GPA: 3.5/4.0</p>
+                        <p style="margin-bottom: 3px;">Honors: Fall 2018 Dean's List</p>
+                        <p style="margin-bottom: 3px;">Courses I have done: </p>
+                        <ul>
+                            <li>Videogames and Learning✔️</li>
+                            <li>Elementary Web Development✔️</li>
+                            <li>Data Structures✔️</li>
+                            <li>Computer Architecture✔️</li>
+                            <li>Operating System (With basic network concepts)✔️</li>
+                            <li>Optimization✔️</li>
+                            <li>Intro to Artificial Intelligence✔️</li>
+                            <li>Algorithms✔️</li>
+                            <li>Database Design and Management✔️</li>
+                            <li>Computer Graphics✔️</li>
+                        </ul>
+                        <br>
+                        <h2 style="display: flex; align-items: center; justify-content: left;">
+                            <img src="photo/uvmlogo.png" alt="Description" style="height: 1.5em; margin-right: 10px;">
+                            University of Vermont
+                        </h2>  
+                        <p style="display: inline-block;" class="badge badge-pill badge-primary">May 2016 - May 2018</p>
+                        <p style="display: inline-block;"><b>Vermont, United States</b></p>
+                        <p style="margin-bottom: 3px;"><b>B.S. Computer Science | Transfer</b></p>
+                        <p style="margin-bottom: 3px;">GPA: 3.7/4.0</p>
+                        <p style="margin-bottom: 3px;">Honors: Fall 2017 Dean's List</p>
+                        <p style="margin-bottom: 3px;">Courses I have done: </p>
+                        <ul>
+                            <li>Discrete Mathematics✔️</li>
+                            <li>Elementary Web Development✔️</li>
+                            <li>Python/C++/Java Programming✔️</li>
+                            <li>Computer Organization✔️</li>
+                        </ul>
+                    </div> 
+                </li>
+            </ul>
+        </div>
+    </div>
