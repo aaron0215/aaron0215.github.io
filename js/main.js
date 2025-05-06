@@ -72,3 +72,25 @@ $(function() {
     });
   }
 });
+
+// Back to top button functionality
+$(function() {
+  // Button will appear when user scrolls down 300px
+  var scrollThreshold = 300;
+  var backToTopBtn = $('#back-to-top-btn');
+  
+  // Show/hide button based on scroll position
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > scrollThreshold) {
+      backToTopBtn.addClass('btn-show');
+    } else {
+      backToTopBtn.removeClass('btn-show');
+    }
+  });
+  
+  // Smooth scroll to top when button is clicked
+  backToTopBtn.click(function() {
+    $('html, body').animate({scrollTop: 0}, 800);
+    return false;
+  });
+});
