@@ -6,11 +6,155 @@
         <ul class="list-unstyled">
             <li class="media">
                 <div class="media-body">
-                    <h4>Meituan Standard API (MSI) Monitoring and Alerting System</h4>
+                    <h4>LLM Playground</h4>
+                    <p style="margin-bottom: 3px;">
+                        <b>McMaster University | Ontario, Canada</b>
+                        <a href="https://github.com/aaron0215/LLM-Playground" target="_blank">
+                            Github
+                        </a>
+                    </p>
+                    <p style="margin-bottom: 3px;">*This is a collection of my simple projects used to learn LLM.</p>
                     <ul>
-                        <li>Built the MSI Monitoring and Alerting System from 0 to 1. The system monitored critical indexes and performance data of all business units in the company. Discovered 8 highest-level live issues (P0 issue) during the early deployment stage in 2022 and prevented them from affecting users.</li>
-                        <li>Developed a system for framework maintainer to monitor metrics. Acted as the lead iOS developer, collaborated with Android and web developers to build the system. Developed a tool integrated into CI pipeline to allow developers from all business units to customize their own alert strategy.</li>
-                        <li>Collected operational data from 220+ APIs, processed and reported billions of APIs daily data. Defined several monitoring metrics, aggregated and categorized data to calculate the metrics. Evaluated the level of alerting for different metrics and built relevant alert strategy.</li>
+                        <li>
+                            <b>Chatbot</b>: Used ReAct agent, LlamaIndex, Chaintlit and RAG technology to build and improve 
+                            a chatbot that can retrieve data and answer questions based on wikipedia.
+                        </li> 
+                    </ul>
+                    <br>
+                    <h4>Multi-Domain Image Classifie based on VGG Network</h4>
+                    <p>
+                        <b>McMaster University | Ontario, Canada</b>
+                        <a href="https://github.com/aaron0215/CAS771-project" target="_blank">
+                            Github
+                        </a>
+                    </p> 
+                    <ul>
+                        <li>
+                            Implemented VGGNet-based neural network models with PyTorch for image classification with 
+                            convolutional layers, batch normalization, and pooling layers. Applied various data 
+                            enhancement methods including random flipping and augment to improve performance and 
+                            reduce overfitting.
+                        </li>
+                        <li>Developed an approach that averages feature extractor weights while concatenating 
+                            classifier heads to create a unified model that can classify across all domains. Designed 
+                            custom early stopping mechanism to prevent overfitting, dynamically adjusted
+                            learning rates, and improved overall model accuracy from 70% to over 80%.
+                        </li>
+                    </ul>
+                    <br>
+                    <h4>Fairness Attacks on GNNs via Node Injection</h4>
+                    <p>
+                        <b>McMaster University | Ontario, Canada</b>
+                        <a href="https://github.com/aaron0215/CAS747-Project" target="_blank">
+                            Github
+                        </a>
+                    </p> 
+                    <ul>
+                        <li>
+                            Implemented a novel fairness attack approach on GNNs by strategically injecting nodes to 
+                            maximize unfairness. Implemented uncertainty-aware Bayesian neural network for identifying 
+                            vulnerable nodes in the graph structure. Tested approach on three real-world datasets.
+                        </li>
+                        <li>
+                            Developed optimization process for injected node features using multiple loss functions
+                            including classification loss, fairness loss, and feature constraints. Successfully demonstrated 
+                            attack efficacy across multiple GNN architectures (GCN, GraphSAGE, APPNP, SGC) while 
+                            preserving model utility. Developed statistic metrics for measurement.
+                        </li>
+                    </ul>
+                    <br>
+                    <h4>Distributed System Development and Optimization</h4>
+                    <p><b>Meituan | Beijing, China</b></p>
+                    <ul>
+                        <li>
+                            Participated in service splitting and restructure, designed and built micro-service 
+                            of marketing and payment modules. Reorganized business logic, improved data handling with 
+                            Redis by splitting read and write traffic. Solved 90% of legacy problems from the old service. 
+                            Reduced overall TP90 response time from 230ms to 90ms.
+                        </li>
+                        <li>
+                            Built micro-service and configuration architecture. Applied Kafka to decoupon services, 
+                            employed container technology to improve system scalability. Enhanced business logic, used 
+                            Databus and binlog to ensure and monitor data consistency. Developed capacities for fault tolerance.
+                        </li>
+                        <li>
+                            Backup data in different regions. Implemented strong fail-over and I/O logic to enhance fault 
+                            tolerance and check data consistency. Built a workflow to monitor critical metrics and trigger 
+                            rate limiter when needed. Used Ribbon for server load balancing. Also employed Docker and 
+                            Kubernetes for image deployment, and enabled auto-scaling for quick recovery. Kept RTO less than 3 mins.
+                        </li>
+                        <li>
+                            Identified slow SQL queries, refined query logic and removed redundant invocations. Applied 
+                            Redis to handle frequently-used data, used data partition idea, split read and write traffic, 
+                            built traffic monitor and limiter, designed client-side cache ability. Maintained TP99 business 
+                            data processing timeunder 20ms and 99.999% successful rate 
+                        </li>
+                    </ul>
+                    <br>
+                    <h4>Campaign System Development</h4>
+                    <p><b>Meituan | Beijing, China</b></p>
+                    <ul>
+                        <li>
+                            Acted as the Backend Lead Engineer for incentive marketing campaign 
+                            system in platform video business line. Designed and developed the system 
+                            from the groud up, led three junior developers. Was responsible for feature 
+                            development, service maintenance and optimization.
+                        </li>
+                        <li>
+                            Led the development of 20+ core features in half year. Including component dynamic 
+                            configuration, intelligent campaign distribution, coupon and cash reward delivery, 
+                            fission marketing strategy etc. Modularized 15 different campaign templates for use. 
+                            Developed and deployed 30+ crucial campaigns to production environment. Built monitor 
+                            for business and system metrics.
+                        </li>
+                        <li>
+                            Cooperated with product managers and business operators, developed strategies to achieve 
+                            user-growth relevant goals. Successfully increased DAU of product from 80K to 12M over a year, 
+                            raised user retention rate from 16% to 42% and extended average user browse time from 104s to 428s.
+                        </li>
+                    </ul>
+                    <br>
+                    <h4>MRN JavaScript Bridge Management System</h4>
+                    <p><b>Meituan | Beijing, China</b></p>
+                    <ul>
+                        <li>
+                            Led the development of MRN Bridge (native API in framework) Management 
+                            and Monitoring System with the team. Responsible for the overall system 
+                            design and iOS development. Integrated the system into application 
+                            CI pipeline.
+                        </li>
+                        <li>
+                            The system scans and reports the usage of all kinds of native APIs from 
+                            100+ business units, collects and categorizes the information. It is 
+                            built for performance analysis, information search and API usage 
+                            monitor. It found 10+ illegal API usage and blocked them from integration.
+                        </li>
+                        <li>
+                            Handled the regulatory demand about user privacy information from 
+                            Chinese Ministry of Industry and Information Technology. With the 
+                            help of the system, the department quickly identified 30+ APIs need 
+                            to be regulated and built a restriction system over one night, and 
+                            found all the 200+ relevant developers to have them modify their codes.
+                        </li>
+                    </ul>
+                    <br>
+                    <h4>Meituan Standard API (MSI) Monitoring and Alerting System</h4>
+                    <p><b>Meituan | Beijing, China</b></p>
+                    <ul>
+                        <li>Built the MSI Monitoring and Alerting System from 0 to 1. The system 
+                            monitored critical indexes and performance data of all business units 
+                            in the company. Discovered 8 highest-level live issues (P0 issue) 
+                            during the early deployment stage in 2022 and prevented them from 
+                            affecting users.</li>
+                        <li>Developed a system for framework maintainer to monitor metrics. Acted 
+                            as the lead iOS developer, collaborated with Android and web developers
+                             to build the system. Developed a 
+                            tool integrated into CI pipeline to allow developers from all business 
+                            units to customize their own alert strategy.</li>
+                        <li>Collected operational data from 220+ APIs, processed and reported billions 
+                            of APIs daily data. Defined several monitoring metrics, aggregated and
+                             categorized data to calculate the metrics. Evaluated the level of 
+                             alerting for different metrics and built relevant alert strategy.</li>
                         <li>Successfully promoted to Senior Software Engineer upon finishing this project.</li>
                     </ul>
             </li>
